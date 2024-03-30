@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fork in the Road</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: #ADD5B8;
+        }
+    </style>
+
+    <h1>
+        "When you come to a fork in the road, take it."
+    </h1>
+
+    <h2>
+        Yogi Berra
+    </h2>
+
+    <br>
+
+    <div class="image-container">
+        <img id="fork image"
+            src=https://t4.ftcdn.net/jpg/00/93/06/73/360_F_93067340_B0chaFQUm96v6GmLhUIrGV6rEv40JqmL.jpg
+            style="height:225px;width:450px;" class="center" />
+
+        <button class="button-1" role='button' onclick="showFrogImage()">Click me! </button>
+        <div id="imageContainer1" style="display: none;">
+            <div id="imageContent1">
+                <img id="myImage1"
+                    src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Yogi_Bear_Yogi_Bear.png/220px-Yogi_Bear_Yogi_Bear.png"
+                    alt="placeholder image">
+                <button id="closeBtn1" onclick="hideFrogImage()">Close</button>
+            </div>
+        </div>
+
+        <button class="button-2" role='button2' onclick="showKermitImage()"> Click me! </button>
+        <div id="imageContainer2" style="display: none;">
+            <div id="imageContent2">
+                <img id="myImage2" src="https://historicmissourians.shsmo.org/wp-content/uploads/2020/07/berra1-1.jpg"
+                    alt="placeholder image">
+                <button id="closeBtn2" onclick="hideKermitImage()">Close</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
