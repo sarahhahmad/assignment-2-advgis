@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--establishing connection to css code-->
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fork in the Road</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<!--creating a background color for the webpage-->
 
 <body>
     <style>
@@ -14,7 +17,7 @@
             background-color: #ADD5B8;
         }
     </style>
-
+    <!--intro text-->
     <h1>
         "When you come to a fork in the road, take it."
     </h1>
@@ -24,11 +27,14 @@
     </h2>
 
     <br>
-
+    <!--establishing fork in the road image as the central image of the page on which the buttons are placed-->
     <div class="image-container">
         <img id="fork image"
             src=https://t4.ftcdn.net/jpg/00/93/06/73/360_F_93067340_B0chaFQUm96v6GmLhUIrGV6rEv40JqmL.jpg
             style="height:225px;width:450px;" class="center" />
+
+        <!--giving lefthand button an image (Yogi Bear) to display when it is clicked on, and providing a Close button for when the user wants to return to the main landing page-->
+        <!--button also says 'Click Me!' to give directions to the user-->
 
         <button class="button-1" role='button' onclick="showFrogImage()">Click me! </button>
         <div id="imageContainer1" style="display: none;">
@@ -40,6 +46,9 @@
             </div>
         </div>
 
+        <!--giving righthand button an image (Yogi Berra) to display when it is clicked on, and providing a Close button for when the user wants to return to the main landing page-->
+        <!--button also says 'Click Me!' to give directions to the user-->
+
         <button class="button-2" role='button2' onclick="showKermitImage()"> Click me! </button>
         <div id="imageContainer2" style="display: none;">
             <div id="imageContent2">
@@ -50,6 +59,7 @@
         </div>
 
     </div>
+    <!--establishing connection to javascript code-->
 
     <script src="scripts.js"></script>
 </body>

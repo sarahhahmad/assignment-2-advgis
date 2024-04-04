@@ -1,6 +1,10 @@
+/** Trebuchet MS is the font for the landing page text**/
+
 * {
     font-family: Trebuchet MS, sans-serif;
 }
+
+/** Give text center alignment **/
 
 h1,
 h2,
@@ -10,6 +14,7 @@ h3 {
     text-align: center;
 }
 
+/**Formatting for the Fork in the Road Image**/
 .image-container {
     position: relative;
     margin: auto;
@@ -23,7 +28,7 @@ h3 {
     /* set your desired height */
 }
 
-/* CSS */
+/* making sure that button 1 is placed on top of left path on image and stays on the image even if the page size changes */
 .button-1 {
     display: flex;
     flex-direction: column;
@@ -58,6 +63,7 @@ h3 {
     outline: 0;
 }
 
+/* formatting for when the Yogi Bear image pops up on screen, making sure that the page behind the image is faded */
 #imageContainer1 {
     display: none;
     position: fixed;
@@ -71,6 +77,7 @@ h3 {
     /* ensure it's above other content */
 }
 
+/* formatting for when the Yogi Bear image pops up on screen, making sure that it is centered on the page */
 #imageContent1 {
     position: absolute;
     top: 50%;
@@ -85,15 +92,13 @@ h3 {
     max-height: 80vh;
     /* adjust as needed */
 }
-
+/* formatting for location of Close Button */
 #closeBtn1 {
     display: block;
     margin-top: 10px;
 }
 
-
-
-/* CSS */
+/* making sure that button 1 is placed on top of right path on image and stays on the image even if the page size changes */
 .button-2 {
     display: flex;
     flex-direction: column;
@@ -128,6 +133,8 @@ h3 {
     outline: 0;
 }
 
+/* formatting for when the Yogi Berra image pops up on screen, making sure that the page behind the image is faded */
+
 #imageContainer2 {
     display: none;
     position: fixed;
@@ -140,6 +147,8 @@ h3 {
     z-index: 9999;
     /* ensure it's above other content */
 }
+
+/* formatting for when the Yogi Berra image pops up on screen, making sure that it is centered on the page */
 
 #imageContent2 {
     position: absolute;
@@ -155,6 +164,8 @@ h3 {
     max-height: 80vh;
     /* adjust as needed */
 }
+
+/* formatting for location of Close Button */
 
 #closeBtn2 {
     display: block;
